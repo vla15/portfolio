@@ -7,14 +7,16 @@ class Project extends React.Component {
   }
 
   render() {
-    const { title, image, description } = this.props;
+    const { title, image, description, href } = this.props;
     const imageStyle = {
       backgroundImage: `url(${image})`
     }
     return <div className="project-content">
-        <div className="project-title">{title}</div>
-        <div className="project-image-box" style={imageStyle}></div>
-        <div className="project-description">{description}</div>
+        <a href={href} className="project-title project-item">{title}</a>
+        <div className="project-image-box project-item" style={imageStyle} />
+        <div className="project-description project-item">
+          {description}
+        </div>
       </div>;
   }
 }
