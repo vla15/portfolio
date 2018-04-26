@@ -11,14 +11,15 @@
 }
 
 .header-links {
+  justify-content: flex-end;
   display: flex;
   height: 100%;
   width: 30%;
   align-items: center;
-  justify-content: space-around;
 }
 
 .header-item {
   height: 32px;
   width: 32px;
+  margin-right: 20px;
 }
