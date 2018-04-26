@@ -17,11 +17,7 @@
   color: white;
   display: flex;
   align-items: center;
-  font-size: 10vh;
-}
-
-.title {
-  margin-left: 11vw;
+  z-index: 1;
 }
 
 .site-content {
