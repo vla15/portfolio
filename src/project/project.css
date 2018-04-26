@@ -6,6 +6,8 @@
   flex-direction: column;
   align-items: center;
   margin: 5px;
+  animation-name: fadeIn;
+  animation-duration: 1s;
 }
 .project-image-box {
   width: 100%;
@@ -17,6 +19,8 @@
 
 .project-item {
   margin: 10px 5px 10px 5px;
+  animation-name: topSlideIn;
+  animation-duration: 3s;
 }
 
 .project-title {
@@ -24,4 +28,33 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
+}
+
+.project-description {
+  font-style: 1em;
+  line-height: 1.5em;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes topSlideIn {
+  0% {
+    position: relative;
+    top: -25%;
+    opacity: 0;
+  }
+
+  50% {
+    position: relative;
+    top: 0;
+    opacity: 1;
+  }
 }
