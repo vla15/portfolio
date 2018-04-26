@@ -11,7 +11,7 @@
 .App-header {
   top: 0;
   position: fixed;
-  height: 20vh;
+  height: 15vh;
   width: 100%;
   background-color: black;
   color: white;
@@ -23,5 +23,5 @@
 .site-content {
   flex: 1;
   min-height: 80vh;
-  margin-top: 20vh;
+  margin-top: 15vh;
 }

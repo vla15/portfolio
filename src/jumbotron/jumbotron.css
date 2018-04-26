@@ -1,0 +1,18 @@
+.jumbo-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 55vh;
+  background-color: lightblue;
+}
+
+.jumbo-image {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
