@@ -7,7 +7,7 @@ class App extends Component {
 
 
   render() {
-    return <div className="App" onScroll={this.handleScroll}>
+    return <div className="App">
         <div className="App-header">
           <div className="title">Vincent La</div>
         </div>

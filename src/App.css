@@ -1,26 +1,31 @@
 .App {
   display: flex;
   flex-direction: column;
+  align-items: stretch;
   height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
   width: 100%;
 }
 
 .App-header {
   top: 0;
   position: fixed;
-  height: 15vh;
+  height: 20vh;
   width: 100%;
   background-color: black;
-  color: yellow;
+  color: white;
   display: flex;
   align-items: center;
   font-size: 10vh;
 }
 
 .title {
-  margin-left: 5vw;
+  margin-left: 11vw;
 }
 
 .site-content {
-  margin-top: 15vh;
+  flex: 1;
+  min-height: 80vh;
+  margin-top: 20vh;
 }

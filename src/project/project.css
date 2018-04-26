@@ -1,0 +1,17 @@
+.project-content {
+  max-width: 45vw;
+  min-width: 45vw;
+  min-height: 14vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px black solid;
+  margin: 5px;
+}
+.project-image-box {
+  width: 100%;
+  height: 20vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
