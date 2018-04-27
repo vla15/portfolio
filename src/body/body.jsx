@@ -18,7 +18,9 @@ class Body extends React.Component {
 
   render() {
     return <div className="content">
-      <h2 className="section-header">Projects</h2>
+      <div className="section-header-border">
+        <h2 className="section-header">Projects</h2>
+      </div>
       <div className="project-body">
         {this.renderProjects()}
       </div>
