@@ -8,9 +8,15 @@ const Header = props => {
   return <div className="header-content">
       <div className="header-title">Vincent La</div>
       <div className="header-links">
-        <a href="mailto:vincela15@gmail.com" className="header-item email" style={emailStyle} />
-        <a href="https://www.linkedin.com/in/vincela/" className="header-item linkedin" style={linkedinStyle} />
-        <a href="https://github.com/vla15" className="header-item github" style={githubStyle} />
+        <div className="header-link-border">
+          <a href="mailto:vincela15@gmail.com" className="header-item email" style={emailStyle} />
+        </div>
+        <div className="header-link-border">
+          <a href="https://www.linkedin.com/in/vincela/" className="header-item linkedin" style={linkedinStyle} />
+        </div>
+        <div className="header-link-border">
+          <a href="https://github.com/vla15" className="header-item github" style={githubStyle} />
+        </div>
       </div>
     </div>;
 };

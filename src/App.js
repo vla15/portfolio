@@ -3,7 +3,8 @@ import logo from './logo.svg';
 import './App.css';
 import Body from './body/body.jsx';
 import Header from './header/header.jsx';
-import JumboTron from './jumbotron/jumbotron';
+import JumboTron from './jumbotron/jumbotron.jsx';
+import About from './about/about.jsx';
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
         </div>
         <div className="site-content">
           <JumboTron />
+          <About />
           <Body />
         </div>
       </div>;
