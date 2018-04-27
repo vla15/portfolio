@@ -8,7 +8,14 @@
   margin: 5px;
   animation-name: fadeIn;
   animation-duration: 1s;
+  text-decoration: none;
+  color: black;
 }
+
+.project-content:hover {
+  transform: scale(1.05);
+}
+
 .project-image-box {
   width: 100%;
   height: 20vw;

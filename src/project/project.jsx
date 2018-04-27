@@ -35,13 +35,13 @@ class Project extends React.Component {
     const imageStyle = {
       backgroundImage: `url(${image})`
     }
-    return <div className="project-content">
-        <a href={href} className="project-title project-item">{title}</a>
+    return <a href={href} className="project-content">
+        <div href={href} className="project-title project-item">{title}</div>
         <div className="project-image-box project-item" style={this.state.animate ? Object.assign(animationState, imageStyle) : imageStyle} />
         <div className="project-description project-item">
           {description}
         </div>
-      </div>;
+      </a>;
   }
 }
 
