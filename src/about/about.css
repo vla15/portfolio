@@ -1,0 +1,17 @@
+.about-section{
+  padding-bottom: 17vh;
+}
+
+.about-box {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.about-content {
+  width: 77%;
+  font-style: 1em;
+  line-height: 1.5em;
+}
