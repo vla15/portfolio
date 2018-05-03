@@ -44,6 +44,11 @@
 /******/ 		}
 /******/ 	};
 /******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
 /******/ 	// getDefaultExport function for compatibility with non-harmony modules
 /******/ 	__webpack_require__.n = function(module) {
 /******/ 		var getter = module && module.__esModule ?
@@ -59,20 +64,22 @@
 /******/ 	// __webpack_public_path__
 /******/ 	__webpack_require__.p = "/public";
 /******/
+/******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
 /******/ })
 /************************************************************************/
-/******/ ([
-/* 0 */
+/******/ ({
+
+/***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
   \**********************/
-/*! dynamic exports provided */
-/*! all exports used */
+/*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("throw new Error(\"Module build failed: Error: Using `babel-preset-react-app` requires that you specify `NODE_ENV` or `BABEL_ENV` environment variables. Valid values are \\\"development\\\", \\\"test\\\", and \\\"production\\\". Instead, received: undefined. (While processing preset: \\\"/Users/vla/portfolio/node_modules/babel-preset-react-app/index.js\\\")\\n    at Object.<anonymous> (/Users/vla/portfolio/node_modules/babel-preset-react-app/index.js:51:9)\\n    at Module._compile (internal/modules/cjs/loader.js:678:30)\\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:689:10)\\n    at Module.load (internal/modules/cjs/loader.js:589:32)\\n    at tryModuleLoad (internal/modules/cjs/loader.js:528:12)\\n    at Function.Module._load (internal/modules/cjs/loader.js:520:3)\\n    at Module.require (internal/modules/cjs/loader.js:626:17)\\n    at require (internal/modules/cjs/helpers.js:20:18)\\n    at /Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/options/option-manager.js:296:17\\n    at Array.map (<anonymous>)\\n    at OptionManager.resolvePresets (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/options/option-manager.js:275:20)\\n    at OptionManager.mergePresets (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/options/option-manager.js:264:10)\\n    at OptionManager.mergeOptions (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/options/option-manager.js:249:14)\\n    at OptionManager.init (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/options/option-manager.js:368:12)\\n    at File.initOptions (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/index.js:212:65)\\n    at new File (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/file/index.js:135:24)\\n    at Pipeline.transform (/Users/vla/portfolio/node_modules/babel-core/lib/transformation/pipeline.js:46:16)\\n    at transpile (/Users/vla/portfolio/node_modules/babel-loader/lib/index.js:50:20)\\n    at Object.module.exports (/Users/vla/portfolio/node_modules/babel-loader/lib/index.js:175:20)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiMC5qcyIsInNvdXJjZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///0\n");
+eval("throw new Error(\"Module build failed: TypeError: Cannot read property 'eslint' of undefined\\n    at Object.module.exports (/Users/vla/portfolio/node_modules/eslint-loader/index.js:148:18)\");//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvaW5kZXguanMuanMiLCJzb3VyY2VzIjpbXSwibWFwcGluZ3MiOiIiLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/index.js\n");
 
 /***/ })
-/******/ ]);
+
+/******/ });
