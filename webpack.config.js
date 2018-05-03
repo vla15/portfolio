@@ -36,8 +36,13 @@ module.exports = {
                     },
                     {
                         loader: "css-loader" // translates CSS into CommonJS
-                    }
+                    },
+                    
                 ]
+            },
+            {
+                test: /\.svg$/,
+                loader: 'svg-inline-loader'
             }
         ]
     }
