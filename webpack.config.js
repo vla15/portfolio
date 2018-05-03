@@ -1,6 +1,7 @@
 const path = require('path');
 
 module.exports = {
+    mode: "development",
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, "dist"),
@@ -15,6 +16,7 @@ module.exports = {
                 exclude: /node_modules/,
                 loader: "eslint-loader"
             },
+
             {
                 test: /\.(js|jsx)?$/,
                 include: path.join(__dirname, "src/"),
@@ -25,6 +27,17 @@ module.exports = {
                         presets: [["env", { modules: false }], "react"]
                     }
                 }
+            },
+            {
+                test: /(\.css)$/,
+                use: [
+                    {
+                        loader: "style-loader" // creates style nodes from JS strings
+                    },
+                    {
+                        loader: "css-loader" // translates CSS into CommonJS
+                    }
+                ]
             }
         ]
     }
