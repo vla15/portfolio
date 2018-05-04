@@ -18,7 +18,7 @@ module.exports = {
             },
 
             {
-                test: /\.(js|jsx)?$/,
+                test: /\.(js|x?)$/,
                 include: path.join(__dirname, "src/"),
                 exclude: /node_modules/,
                 use: {
@@ -39,10 +39,6 @@ module.exports = {
                     },
                     
                 ]
-            },
-            {
-                test: /\.svg$/,
-                loader: 'svg-inline-loader'
             }
         ]
     }
