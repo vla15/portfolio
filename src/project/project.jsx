@@ -11,13 +11,14 @@ class Project extends React.Component {
   }
 
   componentDidMount() {
-    window.addEventListener('scroll', this.onScroll)
+    
+    window.addEventListener('scroll', this.onScroll);
   }
 
   onScroll() {
     let el = document.getElementsByClassName('project-title')[this.props.index];
     if (el.getBoundingClientRect().bottom <= window.innerHeight) {
-      this.setState({animate: true});
+      this.setState({ animate: true });
       window.removeEventListener('scroll', this.onScroll);
     }
   }
