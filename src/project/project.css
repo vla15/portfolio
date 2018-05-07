@@ -1,9 +1,7 @@
 .project-content {
-  max-width: 45vw;
-  min-width: 45vw;
   min-height: 14vh;
   display: flex;
-  flex-direction: column;
+  flex: 1 1 100vw;
   align-items: center;
   margin: 5px;
   animation-name: fadeIn;
@@ -12,20 +10,38 @@
   color: black;
 }
 
+.project-image-well {
+  min-width: 40vw;
+  margin-right: 10px;
+  align-self: stretch;
+}
+
+@media only screen and (min-width : 1110px) {
+  .project-content {
+    flex: 0 0 45vw;
+    flex-direction: column;
+  }
+
+  .project-description {
+    font-size: 1.3em;
+  }
+}
+
+
 .project-content:hover {
   transform: scale(1.05);
 }
 
 .project-image-box {
-  width: 100%;
-  height: 20vw;
+  width: 40vw;
+  height: 40vw;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .project-item {
-  margin: 10px 5px 10px 5px;
+  margin: 10px;
 }
 
 .project-title {
@@ -33,11 +49,13 @@
   font-weight: bold;
   text-decoration: none;
   color: black;
+  text-align: center;
+  margin: 5px;
 }
 
 .project-description {
-  font-size: 1.3em;
-  line-height: 1.1em;
+  font-size: 1em;
+  line-height: 1em;
 }
 
 @keyframes fadeIn {
